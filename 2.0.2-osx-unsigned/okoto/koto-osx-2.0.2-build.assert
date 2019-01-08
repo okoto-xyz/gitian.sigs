@@ -1,8 +1,8 @@
 --- !!omap
 - out_manifest: |
-    de0dd86bae8cc320b1c7497c29a64ebdaff8536e42b85db12476aeb97c7476e7  koto-2.0.2-osx-unsigned.dmg
-    f6916e7b3722c9dd65e8e3e842600b4933abc4eb5a54b793d0487d25568231d1  koto-2.0.2-osx-unsigned.tar.gz
-    4bdc1e738ffde645393bec57d81e9eb05195f2e4d43f10d8148f03722220aef4  koto-2.0.2-osx64.tar.gz
+    53b9ded8354aaa332e3002ee7cf06e5a1c6576dd92eead947ffdd8c81b6c537e  koto-2.0.2-osx-unsigned.dmg
+    cd5e144098eb7a4bbd99901df570c839d9ec493f22241e1ac2c87bb201f458e4  koto-2.0.2-osx-unsigned.tar.gz
+    c8d4989c02010960e7011d9a1dfe781fc55ad523edba227cc25b2ef7434bf71c  koto-2.0.2-osx64.tar.gz
     3543a0b641b0e495e68f4be3649ab3163e6d61c696b0c2dad2a6f32cb24c4844  src/koto-2.0.2.tar.gz
 - in_manifest: |-
     e71f29814ced0d98db8b2d89d122f4838f4b430afae3b46f87aa0bafa3f4ae67  koto-osx-2.0.2-desc.yml
@@ -535,7 +535,6 @@
     5d7a70ed4701fe9410041c1eea025c95cad97e5b3d8acc46426f9ac4f9f02393  rust-1.28.0-x86_64-apple-darwin.tar.gz
     55c07426f791c51c8a2b6934b35784175c4abb4e03f123f3e847109c4dc1ad8b  rust-1.28.0-x86_64-pc-windows-gnu.tar.gz
     2a1390340db1d24a9498036884e6b2748e9b4b057fc5219694e298bdaa37b810  rust-1.28.0-x86_64-unknown-linux-gnu.tar.gz
-    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  stream-cipher-0.1.0.crate
     30dc6118470d69ce0fdcf7e6f95e95853f7f4f72f80d835d4519577c323814ab  stream-cipher-0.1.1.crate
     612d636f949607bdf9b123b4a6f6d966dedf3ff669f7f045890d3a4a73948169  typenum-1.10.0.crate
     3b3ecb7bf0a5157f5b6010bc3af7c141fb0ad3527084e63336220d22744bc20c  v1.1.2.tar.gz
@@ -552,8 +551,8 @@
 - cache_package_manifest: |
     463303ccddad6c045c272bdcdd66eeaa1a0fa6e618625c7aad40d3866c002503  x86_64-apple-darwin14/bdb/bdb-6.2.23-ae0817b3b2e.tar.gz
     383b596dc2cf579affff64fe40ffd0e696209d4f0928e0102aca90d4f4bfe180  x86_64-apple-darwin14/bdb/bdb-6.2.23-ae0817b3b2e.tar.gz.hash
-    449f53cd55ed3c47a509bb7aee88dea13b3bb9634ec7d870f2e9085412a8bbc6  x86_64-apple-darwin14/boost/boost-1_66_0-2f0f47662e4.tar.gz
-    a34ddb29a0a826e446eb149ae8a262d82ead11e1d1e773fd30223b6ba9b6bf04  x86_64-apple-darwin14/boost/boost-1_66_0-2f0f47662e4.tar.gz.hash
+    4e4c14f8817d9787809cc54923a6f37f2980f9ce90fc9b011e9e91022719ddd7  x86_64-apple-darwin14/boost/boost-1_66_0-2f0f47662e4.tar.gz
+    fc453d134216ebc833751c49a802f52549ca3deab170e27acee1b40e4a19b497  x86_64-apple-darwin14/boost/boost-1_66_0-2f0f47662e4.tar.gz.hash
     387ba4e6d563584a49110c19a918f7d7d76a611eb37f7f30506c2928186acccf  x86_64-apple-darwin14/crate_aes/crate_aes-0.2.0-1ec87b0856a.tar.gz
     bba402550b9bbc374f14f1c78c69e892b3bb26bd778891fa61e931c61350a574  x86_64-apple-darwin14/crate_aes/crate_aes-0.2.0-1ec87b0856a.tar.gz.hash
     69a3134462e6acce716adf5268239d1175780e8a4674b159832ba6e707b81940  x86_64-apple-darwin14/crate_aes_soft/crate_aes_soft-0.2.0-e08bfcec669.tar.gz
@@ -628,12 +627,12 @@
     1af1257d11a3a49e3f71de23f0345d292cf880a0a27bf86bc1720c3feb47644b  x86_64-apple-darwin14/libevent/libevent-2.1.8-9dbb7766731.tar.gz.hash
     2fc4706b16addbf00b0b2964020800e8ceba55692f65aad28d97ecbcb6b091f2  x86_64-apple-darwin14/libgmp/libgmp-6.1.1-3f7a25cb394.tar.gz
     0566351901d15541dad7b912adc3f1b25619ab3ba8293fdb7b58f4e33f634e1b  x86_64-apple-darwin14/libgmp/libgmp-6.1.1-3f7a25cb394.tar.gz.hash
-    8c1192c0bee8883fb110c38072fe99dd9a7ffd0aa48e65d903d5b78b365de9a5  x86_64-apple-darwin14/librustzcash/librustzcash-0.1-99849d31fea.tar.gz
-    bf9acfe8e199d679b9a85006d3f8f8972aea0ee77dce7ce5012b5d3bb6add078  x86_64-apple-darwin14/librustzcash/librustzcash-0.1-99849d31fea.tar.gz.hash
+    648824b3e21ced2a324ddb3f38996bdb7a70314b4d84a73ac70435fbbba1058f  x86_64-apple-darwin14/librustzcash/librustzcash-0.1-99849d31fea.tar.gz
+    202806989b41f1a4446eaaf5966214b6ceed312307d28c015f8619feaaae4b29  x86_64-apple-darwin14/librustzcash/librustzcash-0.1-99849d31fea.tar.gz.hash
     f12fe2d708af1cdff293f7c22e9165eeb086dd7409a02480cb63be70a4c6032e  x86_64-apple-darwin14/libsodium/libsodium-1.0.15-4d769107836.tar.gz
     e24558ab89e8b7671dad94703acb90062de038dd9a9a5fb4ce2fa09a23a7ac5c  x86_64-apple-darwin14/libsodium/libsodium-1.0.15-4d769107836.tar.gz.hash
-    0861acf5fd506ee39c3b16de04eb7fc5b8316200befebd96102a491ba2f208d5  x86_64-apple-darwin14/native_biplist/native_biplist-0.9-12f909f05d2.tar.gz
-    85c2ac5d7ea5d8af4a2c256b371423b0ee553e0d0877f918206b8c919d70807e  x86_64-apple-darwin14/native_biplist/native_biplist-0.9-12f909f05d2.tar.gz.hash
+    609be052541073664e402e1cba6b5c401b45ce0ee5656d5132caa22bfc725043  x86_64-apple-darwin14/native_biplist/native_biplist-0.9-12f909f05d2.tar.gz
+    10ce73159b8fb35270cfbcf64509a982230c0b7eea87e4c4465b55cfa788981b  x86_64-apple-darwin14/native_biplist/native_biplist-0.9-12f909f05d2.tar.gz.hash
     e272038c6466cb354f9eea3f81ec2fff0140377d6b8e949576a4fd36202d0c6b  x86_64-apple-darwin14/native_ccache/native_ccache-3.3.1-c368b764492.tar.gz
     be71f67ca333f7c403828d15ce208662c6d627c84561876f8ad634277833f2a2  x86_64-apple-darwin14/native_ccache/native_ccache-3.3.1-c368b764492.tar.gz.hash
     9bc6377224a99c4a48a52b9573278c8a14c838154e076b7ebda1ca30fc214b2a  x86_64-apple-darwin14/native_cctools/native_cctools-807d6fd1be5d2224872e381870c0a75387fe05e6-da2e58c72e7.tar.gz
@@ -644,8 +643,8 @@
     43ecfaced813faa76f6d285c78c6597e0cf8b49a1ae28ae378b1ae7a5453d5bc  x86_64-apple-darwin14/native_ds_store/native_ds_store-1.1.2-88f8aa236f2.tar.gz.hash
     cb49c5a4bd048b93a31f85bf055b53df0a3707db1738bca9e3b223b60a33da0c  x86_64-apple-darwin14/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-1870d547272.tar.gz
     53b08c7dec47e30197b4d7119428cfaf579c7b3e5656d446d46362513a1e94c2  x86_64-apple-darwin14/native_libdmg-hfsplus/native_libdmg-hfsplus-0.1-1870d547272.tar.gz.hash
-    5a7b69737dfb00204c6e77c80b2933b96f6f45adc808bb356a41d8a020cbaeeb  x86_64-apple-darwin14/native_mac_alias/native_mac_alias-2.0.6-8c0ea758d77.tar.gz
-    c818ed905fde5f26fa7a3517b8b2f3ee5a6750088d091622bf3e0659fa12dc32  x86_64-apple-darwin14/native_mac_alias/native_mac_alias-2.0.6-8c0ea758d77.tar.gz.hash
+    acd6330d1eeb6a493be73055798851a422ea8303955c98f5ca9e83474c20709d  x86_64-apple-darwin14/native_mac_alias/native_mac_alias-2.0.6-8c0ea758d77.tar.gz
+    9a0d2cc127d96f5d648e58b9487a609217fd4cf15d1bdba09d515f0dae152a2e  x86_64-apple-darwin14/native_mac_alias/native_mac_alias-2.0.6-8c0ea758d77.tar.gz.hash
     c1282da3bcb5312bc8f335fabc0b0faec3f64d77aaeb233e9cfb377262f49a99  x86_64-apple-darwin14/native_protobuf/native_protobuf-2.6.1-8d415e87dd9.tar.gz
     d33feadfe5c5c21fb096291e4b5da78c84fa325f191afceea981bf32f603ca90  x86_64-apple-darwin14/native_protobuf/native_protobuf-2.6.1-8d415e87dd9.tar.gz.hash
     fbc600208360f31ec6cee46dd9fec8c9e713d35ba391fc4a502d56b010cab565  x86_64-apple-darwin14/openssl/openssl-1.0.1k-e8c1f0c618c.tar.gz
