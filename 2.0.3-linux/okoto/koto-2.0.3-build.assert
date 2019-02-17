@@ -357,10 +357,8 @@
     a09c9ba4684670a0375e42d9d67e7f12c1f62581a27f28f7c825d6d7032ccc6a  807d6fd1be5d2224872e381870c0a75387fe05e6.tar.gz
     e6fb1737cdc8da3db76e90ca817a194249a38fcb500c2e6ecec39b29448aa873  aes-0.2.0.crate
     67cc03b0a090a05cb01e96998a01905d7ceedce1bc23b756c0bb7faa0682ccb1  aes-soft-0.2.0.crate
-    f2838c142db62c0c6aea0a24054c46d35488532fdaea0f51dbeba430f0985df5  aesni-0.4.0.crate
     6810b7fb9f2bb4f76f05ac1c170b8dde285b6308955dc3afd89710268c958d9e  aesni-0.4.1.crate
     a1e964f9e24d588183fcb43503abda40d288c8657dfc27311516ce2f05675aef  arrayvec-0.4.7.crate
-    eae372472c7ea8f7c8fc6a62f7d5535db8302de7f1aafda2e13a97c4830d3bcf  bellman-0.1.0.crate
     b57cadfd26e4754efdf89e9e37de87885f9b5c847b2615688ca04adfaf6ca604  biplist-0.9.tar.gz
     02b4ff8b16e6076c3e14220b39fbc1fabb6737522281a388998046859400895f  bit-vec-0.4.4.crate
     b3c30d3802dfb7281680d6285f2ccdaa8c2d8fee41f93805dba5c4cf50dc23cf  bitflags-1.0.1.crate
@@ -373,8 +371,6 @@
     1d15b6337ffc0876ed1a9827cae566e24639e0f5d7d186b2de04c38d762336b4  clang-llvm-4.0.0-x86_64-linux-gnu-ubuntu-14.04.tar.xz
     8ff012e225ce166d4422e0e78419d901719760f62ae2b7969ca6b564d1b54a9e  constant_time_eq-0.1.3.crate
     8a873cc41f02e669e8071ab5919931dd4263f050becf0c19820b0497c07b0ca3  crate_blake2_rfc-7a5b5fc99ae483a0043db7547fb79a6fa44b88a9.tar.gz
-    ae3a122b1f1ce97b4e80e0e8542e19aa1516e99e6c72875688c886af1a881558  crate_sapling_crypto-21084bde2019c04bd34208e63c3560fe2c02fb0e.tar.gz
-    b0b011ea96524f0d918a44c7ab8a3dec6270879d1ff03d7dbda6c676d25caa7e  crate_zip32-176470ef41583b5bd0bd749bd1b61d417aa8ec79.tar.gz
     24ce9782d4d5c53674646a6a4c1863a21a8fc0cb649b3c94dfc16e45071dea19  crossbeam-0.3.2.crate
     64141f0db4945268a21b490d58806b97c615d3d0c75bf8c335bbe0efd13b45b5  curl-7.61.0.tar.gz
     47612c8991aa9ac2f6be721267c8d3cdccf5ac83105df8e50809daea24e95dc7  db-6.2.23.tar.gz
@@ -384,10 +380,8 @@
     7fa0da53baa6314b881b61bfa2267719ff4171fc769a002f5e95834232c85608  download-stamps/.stamp_fetched-boost-boost_1_66_0.tar.bz2.hash
     08dbf7a11f2dc48041cbb3923344e5e1305a7b58496b4eef68c4ee4484489a02  download-stamps/.stamp_fetched-crate_aes-aes-0.2.0.crate.hash
     3540d2829546272f54219c53d4d6f482da9f62fe6cc841b1e47876d5860c2fb3  download-stamps/.stamp_fetched-crate_aes_soft-aes-soft-0.2.0.crate.hash
-    b6a0fb522e233e27bc77f266ab1254122a30df9d3e895195cc21bf411f329a47  download-stamps/.stamp_fetched-crate_aesni-aesni-0.4.0.crate.hash
     a9af0b2e6ae0a775245029a242294c00862e1af960c79267ef55281439aff6b8  download-stamps/.stamp_fetched-crate_aesni-aesni-0.4.1.crate.hash
     93a25f8c7f5e15526f29b2896a361bb22b4d8c0fdc59857fbc6cc63ab01e8b7b  download-stamps/.stamp_fetched-crate_arrayvec-arrayvec-0.4.7.crate.hash
-    665baaba0e46f2c24bd1346857e889326b1f207cfedebf785b9ecc6f29bca12b  download-stamps/.stamp_fetched-crate_bellman-bellman-0.1.0.crate.hash
     4b8a4d831769dc3906d58a2c679cef1032020fb2430aef97d9868757d1803293  download-stamps/.stamp_fetched-crate_bit_vec-bit-vec-0.4.4.crate.hash
     720a94ca3c01785ab352ba4bd59edf411e8213243a111957730ce074cec0b999  download-stamps/.stamp_fetched-crate_bitflags-bitflags-1.0.1.crate.hash
     b5f022b259d666386287f867d1171def6c8eb244b7ed8105d1a2f6d80c5830ad  download-stamps/.stamp_fetched-crate_blake2_rfc-crate_blake2_rfc-7a5b5fc99ae483a0043db7547fb79a6fa44b88a9.tar.gz.hash
@@ -411,16 +405,12 @@
     29b75890ccc34f374ab8fc548aead61deaa0b3e5d800ec4505bb891f1b38bab9  download-stamps/.stamp_fetched-crate_num_integer-num-integer-0.1.39.crate.hash
     7b74f6a7ebd6c225a2c59846b0a196dcbe0e170ce1a71cf186265d5d2175c693  download-stamps/.stamp_fetched-crate_num_traits-num-traits-0.2.5.crate.hash
     4e34ad604e294227f7525727135c6b6b36df62b200af31accc841cfb26f64a75  download-stamps/.stamp_fetched-crate_opaque_debug-opaque-debug-0.1.1.crate.hash
-    87a79dbaf112343ca1bdadf8bd65ed148e0eab941d5f843d5f2fe9915c43abad  download-stamps/.stamp_fetched-crate_pairing-pairing-0.14.2.crate.hash
     c7c8eaee5378c34284616591205aa486e23fc296709933c84a89060737e104c9  download-stamps/.stamp_fetched-crate_rand-rand-0.4.2.crate.hash
-    63d82655171f44f0a800aac9f117d645c6c54268c9ef4e2e975c8d371fdeab70  download-stamps/.stamp_fetched-crate_sapling_crypto-crate_sapling_crypto-21084bde2019c04bd34208e63c3560fe2c02fb0e.tar.gz.hash
-    92afd8262d6c494744723f424b3cf2c1049203466299a6cb0c039b6d0d892e6b  download-stamps/.stamp_fetched-crate_stream_cipher-stream-cipher-0.1.0.crate.hash
     6e855d11b6c75ea96acdc8720b893a9c55e4c9267f372a71281e1d7af3bf350b  download-stamps/.stamp_fetched-crate_stream_cipher-stream-cipher-0.1.1.crate.hash
     ef66a8e3980a36f2a6fe1e28df360f78fb852d3187805756ef183280101140d4  download-stamps/.stamp_fetched-crate_typenum-typenum-1.10.0.crate.hash
     c2620acadec1c54ed65b99214de383f6037ecaf8b754f9edfa0360aa1ba1013f  download-stamps/.stamp_fetched-crate_winapi-winapi-0.3.4.crate.hash
     db45327033db845c7dbf221a958c533539a56faa8ba2383dc99496aeb415891e  download-stamps/.stamp_fetched-crate_winapi_i686_pc_windows_gnu-winapi-i686-pc-windows-gnu-0.4.0.crate.hash
     34f1429939b257d4299c988d66d589cd668a4df4b5d0dc744bebf086ab889eec  download-stamps/.stamp_fetched-crate_winapi_x86_64_pc_windows_gnu-winapi-x86_64-pc-windows-gnu-0.4.0.crate.hash
-    b21ea7f73bd4a8c8fcf947a1d4c8799a7983afc61d4c831043a1075b659fa886  download-stamps/.stamp_fetched-crate_zip32-crate_zip32-176470ef41583b5bd0bd749bd1b61d417aa8ec79.tar.gz.hash
     97efa972ed7b1dd6e4cae4c99fcf707b3a101f48dc8a869bb134f4ddba9b50d9  download-stamps/.stamp_fetched-curl-curl-7.61.0.tar.gz.hash
     6344899e3d1f1f63ffa7ff99009d6d9fed28777db74ae699ef196d058c9311b2  download-stamps/.stamp_fetched-dbus-dbus-1.12.2.tar.gz.hash
     81650451b3d2a2b01147ea377e22f635934c363a4b972f2f4fd06cb088f9c58b  download-stamps/.stamp_fetched-expat-expat-2.2.5.tar.bz2.hash
@@ -433,7 +423,6 @@
     a91c6234c78a9eb5ae19fdb2431d77c4d65d6f15be90d7d2cca9a0a89d632939  download-stamps/.stamp_fetched-libevent-libevent-2.1.8.tar.gz.hash
     8866220cca1dac5a03d6d5aa7a1a64ef373e01b8c4fa4ec9cd9b7a275321f50d  download-stamps/.stamp_fetched-libgmp-gmp-6.1.1.tar.bz2.hash
     77bc8da6fa4085b4049d61e2884ad8de3dd424a308211db6f97e71eb509527e4  download-stamps/.stamp_fetched-librustzcash-librustzcash-06da3b9ac8f278e5d4ae13088cf0a4c03d2c13f5.tar.gz.hash
-    922517b59208c55258133a4d82701d5b973cea4e31cc28324336a6a692df9cbe  download-stamps/.stamp_fetched-librustzcash-librustzcash-f5e5cb24e1bd756a02fc4a3fd2b824238ccd15ad.tar.gz.hash
     1bafe17b40cd63094b0225c9a06bc8d280ba0cef274dbef49afd134f7d1b013e  download-stamps/.stamp_fetched-libsodium-libsodium-1.0.15.tar.gz.hash
     4751fa4e569a1affad4d2b0d1937b3b9191bb4e70158c871b81d588446bc8690  download-stamps/.stamp_fetched-libxcb-libxcb-1.12.tar.bz2.hash
     dcc59df61c91326e1883572b08e395950055b38308d9e79d2dce30d5f5cacf04  download-stamps/.stamp_fetched-native_biplist-biplist-0.9.tar.gz.hash
@@ -456,7 +445,6 @@
     ee2477a7137b31b74af6257a0667cf4865dc30627db29457533ad21090a9004b  download-stamps/.stamp_fetched-xextproto-xextproto-7.3.0.tar.bz2.hash
     d0d2bffddaac016e26312a7fac6606a801d5c9fe898429b97c8e40bf2d43255e  download-stamps/.stamp_fetched-xproto-xproto-7.0.31.tar.bz2.hash
     ceea7c56defdb8ac7d32de83da7bb0edfaa425874b9110e938a9c60f354ec573  download-stamps/.stamp_fetched-xtrans-xtrans-1.3.5.tar.bz2.hash
-    d54f4b95fab633da5743b06d403320617ac83abd28eb6b52f47c2f6d40667da5  download-stamps/.stamp_fetched-zeromq-zeromq-4.2.1.tar.gz.hash
     67052074f10257620a8ef9b6d465a59d4200981a815e7e841bde7828a0e1e4fb  download-stamps/.stamp_fetched-zeromq-zeromq-4.3.1.tar.gz.hash
     15eb999e692fc7accf1b7ff83271f2a6c82149b6b9aebf52319e4730c857aa9e  download-stamps/.stamp_fetched-zlib-zlib-1.2.11.tar.gz.hash
     d9dc32efba7e74f788fcc4f212a43216fc37cf5f23f4c2339664d473353aedf6  expat-2.2.5.tar.bz2
@@ -478,7 +466,6 @@
     6569a02eb31c2827080d7d59001869ea14484c281efab0ae7f2b86af5c3120b3  libdmg-hfsplus-v0.1.tar.gz
     316ddb401745ac5d222d7c529ef1eada12f58f6376a66c1118eee803cb70f83d  libevent-2.1.8.tar.gz
     9909ec59fa7a411c2071d6237b3363a0bc6e5e42358505cf64b7da0f58a7ff5a  librustzcash-06da3b9ac8f278e5d4ae13088cf0a4c03d2c13f5.tar.gz
-    e9a488a8bbecf7fb237a32dadd65133211ef61616d44cf55609e029837a41004  librustzcash-f5e5cb24e1bd756a02fc4a3fd2b824238ccd15ad.tar.gz
     fb6a9e879a2f674592e4328c5d9f79f082405ee4bb05cb6e679b90afe9e178f4  libsodium-1.0.15.tar.gz
     4adfb1b7c67e99bc9c2ccb110b2f175686576d2f792c8a71b9c8b19014057b5b  libxcb-1.12.tar.bz2
     9a2228dca57108069a5262f2ed8bd2e82496d2e074a06d1ccc7ce1687b6ae0a2  nodrop-0.1.12.crate
@@ -488,7 +475,6 @@
     c51a3322e4bca9d212ad9a158a02abc6934d005490c054a2778df73a70aa0a30  num_cpus-1.8.0.crate
     d620c9c26834b34f039489ac0dfdb12c7ac15ccaf818350a64c9b5334a452ad7  opaque-debug-0.1.1.crate
     8f9faeaebad088e772f4ef5e38252d472be4d878c6b3a2718c10a4fcebe7a41c  openssl-1.0.1k.tar.gz
-    ceda21136251c6d5a422d3d798d8ac22515a6e8d3521bb60c59a8349d36d0d57  pairing-0.14.2.crate
     ee445612d544d885ae240ffbcbf9267faa9f593b7b101f21d58beceb92661910  protobuf-2.6.1.tar.bz2
     6ffd26d3d0e495bfdb5d9fefc5349954e6105ea18cc4bb191161d27742c5a01a  qpid-proton-0.17.0.tar.gz
     c90035e16921117d4086a7fdee65aab85be32beb4a376f6b664b8a425d327d0b  qrencode-4.0.0.tar.bz2
@@ -510,7 +496,6 @@
     f3f4b23ac8db9c3a9e0d8edb591713f3d70ef9c3b175970dd8823dfc92aa5bb0  xextproto-7.3.0.tar.bz2
     c6f9747da0bd3a95f86b17fb8dd5e717c8f3ab7f0ece3ba1b247899ec1ef7747  xproto-7.0.31.tar.bz2
     adbd3b36932ce4c062cd10f57d78a156ba98d618bdb6f50664da327502bc8301  xtrans-1.3.5.tar.bz2
-    27d1e82a099228ee85a7ddb2260f40830212402c605a4a10b5e5498a7e0e9d03  zeromq-4.2.1.tar.gz
     bcbabe1e2c7d0eec4ed612e10b94b112dd5f06fcefa994a0c79a45d835cd21eb  zeromq-4.3.1.tar.gz
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
 - cache_package_manifest: |
